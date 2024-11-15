@@ -1,2 +1,5 @@
 kaggle
 kagglehub
+pandas
+os
+ipywidgets
