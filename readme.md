@@ -1,5 +1,5 @@
 ## Note:
-Add required packages to requirements.txt. It would be even better if you specified verison number.
+Add required packages to requirements.txt. It would be even better if you specified verison number, but not required.
 pip install -r requirements.txt
 
 You need to read the documentation on how to authenticate with the kaggle API. You need to first create a json token file. This short video shows where to get it along with where to put it in your computer system so you don't have errors: https://www.youtube.com/watch?v=hzcV0hDkfzs&t=230s
