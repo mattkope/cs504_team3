@@ -6,3 +6,5 @@ There are multiple different ways to authenticate. The API example shows putting
 The documentation links are the following:
 - https://www.kaggle.com/docs/api
 - https://github.com/Kaggle/kagglehub
+
+In your jupyter notebook environment run pip install -r requirements.txt
