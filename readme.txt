@@ -10,7 +10,7 @@ The documentation links are the following:
 ## Brief Descriptions of Uploaded Datasets:
 - API - example notebook using the origanol link to eccomerce data showing how to structure json code (don't run this notebook locally copy first code block). 
 - Main - the main notebook that we should use going forward
-- cleaned - how the data was cleaned for Main and cleaned eccomerce dataset
+- cleaned - how the data was cleaned for Main and cleaned kaggle eccomerce dataset
 
 Add required packages to requirements.txt. It would be even better if you specified verison number.
 pip install -r requirements.txt
