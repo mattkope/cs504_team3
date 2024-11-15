@@ -17,6 +17,7 @@ pip install -r requirements.txt
 
 ## Kaggle use
 If you are unable to run the dataset locally, using kaggle would be your best option. We can then commit your changes to main. The dataset will be stored in Kaggle.
+Link to https://www.kaggle.com/datasets/matt2434/cleaned-ecommerce-data
 
 ## Scope of Project
 From November 1st - December 2nd (Cyber Monday)
