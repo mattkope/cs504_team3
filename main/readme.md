@@ -19,7 +19,6 @@ If you have any other problems refer to documentation:
 - https://github.com/Kaggle/kagglehub
 
 ## Brief Descriptions of Uploaded Datasets:
-- API - example notebook showing how to get .json information from active directory 
 - Main - the main notebook that we should use going forward
 - cleaned - how the data was cleaned for Main and cleaned kaggle eccomerce dataset
 
