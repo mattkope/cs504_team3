@@ -1,7 +1,25 @@
 # CS 504 Team 3 Project 🧑‍💻👩‍💻
 
+## Brief Descriptions of Folders
+
+- Aporiori:
+    - Azure Databricks Notebook that utilizes the FPGrowth algorithm to do Market Basket Analysis.
+    - Loads in data using Kaggle API and not kagglehub.
+- main:
+    - Presents how the data was cleaned in cleaned.ipynd.
+    - Showcases how to load kaggle.json from Jupyter directory and how the datasets are joined in Main.ipynb
+    - Contains requirements.txt of packages needed as well, which can be installed using `pip install -r requirements.txt`.
+    - The .gitignore file ignores .json file that is put in the main github folder.
+
+## Azure
+Azure is used to gain access to data analytics software like Databricks. Databricks has Spark preconfigured on the instance. Students get a free 100$ credit to spin up compute resources. 
+
+Link:
+https://azure.microsoft.com/en-us/free/students
+
+
 ## Kaggle 
-Kaggle is mainly used to house the dataset. Kaggle can also provide notebooks with pyspark in case teammates don't have the necessary compute power to run the datasets locally. Copy and Paste the code from linked notebooks to newly created notebooks.
+Kaggle is mainly used to house the data as up to 100 GB can be stored for free. Kaggle can also provide notebooks with pyspark in case teammates don't have the necessary compute power to run the datasets locally. Copy and Paste the code from linked notebooks to newly created notebooks.
 
 Links:
 - Cleaned dataset: https://www.kaggle.com/datasets/matt2434/cleaned-ecommerce-data
@@ -25,14 +43,3 @@ Refer to the documention below for more detailed information:
 
 Here is a YouTube video that goes over how to import kaggle datasets in Collab:
 - https://www.youtube.com/watch?v=gkEbaMgvLs8
-
-## Brief Descriptions of Folders
-
-- Aporiori:
-    - Azure Databricks Notebook that utilizes the FPGrowth algorithm to do Market Basket Analysis.
-    - Loads in data using Kaggle API and not kagglehub.
-- main:
-    - Presents how the data was cleaned in cleaned.ipynd.
-    - Showcases how to load kaggle.json from Jupyter directory and how the datasets are joined in Main.ipynb
-    - Contains requirements.txt of packages needed as well, which can be installed using `pip install -r requirements.txt`.
-    - The .gitignore file ignores .json file that is put in the main github folder.
