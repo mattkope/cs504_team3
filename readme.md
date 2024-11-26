@@ -1,6 +1,6 @@
-# CS504 Team 3 Project 🧑‍💻👩‍💻
+# CS 504 Team 3 Project 🧑‍💻👩‍💻
 
-## Kaggle
+## Kaggle 
 Kaggle is mainly used to house the dataset. Kaggle can also provide notebooks with pyspark in case teammates don't have the necessary compute power to run the datasets locally. Copy and Paste the code from linked notebooks to newly created notebooks.
 
 Links:
@@ -35,4 +35,4 @@ Here is a YouTube video that goes over how to import kaggle datasets in Collab:
     - Presents how the data was cleaned in cleaned.ipynd.
     - Showcases how to load kaggle.json from Jupyter directory and how the datasets are joined in Main.ipynb
     - Contains requirements.txt of packages needed as well, which can be installed using `pip install -r requirements.txt`.
-    - The .gitignore file ignores your .json file that is put in the Jupyter directory.
+    - The .gitignore file ignores .json file that is put in the main github folder.
