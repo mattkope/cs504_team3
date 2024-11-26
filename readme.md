@@ -18,9 +18,9 @@ Refer to the documention below for more detailed information:
 ## Setting up the Environment
 - Click on your Kaggle profile picture in the upper right hand corner -> Click on Settings -> Scroll down and Select Create New Token under the API section.
     - A .json file should have downloaded
-- Install Kaggle in python environment using the command `pip install kaggle` & `pip install kagglehub` 
 - Take created .json file and put in directory `C:\Users\<Windows-username>\.kaggle\kaggle.json` on Windows and `~/.kaggle/kaggle.json` on Linux, OSX, and other UNIX-based operating systems
     - Doing this step will automatically authenticate token going forward
+- Install Kaggle in python environment using the command `pip install kaggle` & `pip install kagglehub` (if using kagglehub statement)
 - To load directly put the .json in your active Jupyter directory and run the API.ipynb code block
 
 Here is a YouTube video that goes over how to import kaggle datasets in Collab:
