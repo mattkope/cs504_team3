@@ -26,7 +26,7 @@ If you have any other problems refer to documentation or Youtube videos:
 ## Brief Descriptions of Folders
 
 - Aporiori:
-    - Azure Databricks Notebook that utilizes the FPGrowth algorithm to do market basket analysis.
+    - Azure Databricks Notebook that utilizes the FPGrowth algorithm to do Market Basket Analysis.
     - Loads in data using Kaggle API and not kagglehub.
 - main:
     - Presents how the data was cleaned in cleaned.ipynd.
