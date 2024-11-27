@@ -5,7 +5,7 @@
 - Aporiori:
     - Azure Databricks Notebook that utilizes the FPGrowth algorithm to do Market Basket Analysis.
     - Loads in data using Kaggle API commands and not kagglehub using .json in local directory.
-- kmeans:
+- k-means:
     - Azure Databricks Notebook that utilizes the Kmeans algorithm to group two feature variables.
     - Loads in data using Kaggle API commands and not kagglehub using .json in local directory.
     - Contains coding template in readme.md.
