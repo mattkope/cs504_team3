@@ -1,3 +1,5 @@
+Note: kaggle json was in the databricks local directory
+
 Azure for Students Free $100 credits:
 https://azure.microsoft.com/en-us/free/students
 
