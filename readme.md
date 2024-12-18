@@ -1,5 +1,16 @@
 # CS 504 Team 3 Project 🧑‍💻👩‍💻
 
+## Analytics Stack 
+- Azure
+- Azure Databricks
+- ChatGPT
+- Jupyter Notebooks
+- Kaggle
+- Kaggle API
+- Kaggle Notebooks
+- PowerBI 
+- Spark (interfaced through PySpark)
+
 ## Brief Descriptions of Folders
 - 3.1 xgboost:
     - Notebook 3.1.2 shows the accuracy of the xg boost.
