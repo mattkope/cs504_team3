@@ -1,7 +1,6 @@
 # CS 504 Team 3 Project 🧑‍💻👩‍💻
 
 ## Brief Descriptions of Folders
-
 - 3.1 xgboost:
     - Notebook 3.1.2 shows the accuracy of the xg boost.
     - Notebook 5.1 shows memory error explained in section 5.1 of paper.
