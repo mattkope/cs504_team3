@@ -5,12 +5,12 @@
     - Notebook 3.1.2 shows the accuracy of the xg boost.
     - Notebook 5.1 shows memory error explained in section 5.1 of paper.
     - Other notebooks run the algorithm on different months, these were not used in the final paper. 
-- 3.2 Aporiori:
-    - Notebook 3.2.2 shows memory error using Apriori algorithm locally. 
-    - Azure Databricks Notebook 3.2.3 utilizes the FPGrowth algorithm to do Market Basket Analysis.
+- 3.2 aporiori:
+    - Notebook 3.2.2 shows memory error using Aporiori algorithm locally. 
+    - Azure Databricks Notebook 3.2.3 utilizes the FP-Growth algorithm to do Market Basket Analysis.
 - 3.3 k-means:
-    - Notebook 3.3.2 uses Kmeans algorithm to group event type and price. 
-    - Azure Databricks Untitled Notebook utilizes the Kmeans algorithm to group two feature variables. This was not used in the final paper.
+    - Notebook 3.3.2 uses K-means algorithm to group event type and price. 
+    - Azure Databricks Untitled Notebook utilizes the K-means algorithm to group two feature variables. This was not used in the final paper.
 - 4.0 visualizations:
     - Covers all the visualizations from section 4.0 of the paper except for visualization 4.5 as that was made using PowerBI.
 - main:
@@ -40,7 +40,7 @@ Links:
 - Notebook joining with pandas: https://www.kaggle.com/code/matt2434/cs-504-project
 
 ## Kaggle API
-The Kaggle API is used to interface between Kaggle and your coding environment. You need to first create a json token file and put it in the .kaggle/ local directory, or load the .json using the provided code in main. When you call the Kaggle API for a download for example, the files are stored locally in a specfic path. If you are using the cloud, the files are also stored in a specific path in that environment. 
+The Kaggle API is used to interface between Kaggle and your coding environment. You need to first create a json token file and put it in the .kaggle/ local directory, or load the .json using the provided code in main. When you call the Kaggle API for a download for example, the files are stored locally in a specific path. If you are using the cloud, the files are also stored in a specific path in that environment. 
 
 Refer to the documention below for more detailed information:
 - https://www.kaggle.com/docs/api
