@@ -1,16 +1,5 @@
 # CS 504 Team 3 Project 🧑‍💻👩‍💻
 
-## Analytics Stack 
-- Azure
-- Azure Databricks
-- ChatGPT
-- Jupyter Notebooks
-- Kaggle
-- Kaggle API
-- Kaggle Notebooks
-- PowerBI 
-- Spark (interfaced through PySpark)
-
 ## Brief Descriptions of Folders
 - 3.1 xgboost:
     - Notebook 3.1.2 shows the accuracy of the xg boost.
@@ -29,6 +18,17 @@
     - Showcases how to load kaggle.json from Jupyter directory and how the datasets are joined in Main.ipynb
     - Contains requirements.txt of packages needed as well, which can be installed using `pip install -r requirements.txt`.
     - The .gitignore file ignores .json file that is put in the main github folder.
+
+## Analytics Stack 
+- Azure
+- Azure Databricks
+- ChatGPT
+- Jupyter Notebooks
+- Kaggle
+- Kaggle API
+- Kaggle Notebooks
+- PowerBI 
+- Spark (interfaced through PySpark)
 
 ## Azure & Azure Databricks
 Azure is used to gain access to data analytics software like Databricks. Databricks has Spark preconfigured on the instance. Students get a free 100$ credit to spin up compute resources. This was used as an alternative to the AWS credits provided in class.
