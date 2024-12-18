@@ -2,31 +2,41 @@
 
 ## Brief Descriptions of Folders
 
-- Aporiori:
-    - Azure Databricks Notebook that utilizes the FPGrowth algorithm to do Market Basket Analysis.
-    - Loads in data using Kaggle API commands and not kagglehub using .json in local directory.
-- k-means:
-    - Azure Databricks Notebook that utilizes the Kmeans algorithm to group two feature variables.
-    - Loads in data using Kaggle API commands and not kagglehub using .json in local directory.
-    - Contains coding template in readme.md.
+- 3.1 xgboost:
+    - Notebook 3.1.2 shows the accuracy of the xg boost.
+    - Notebook 5.1 shows memory error explained in section 5.1 of paper.
+    - Other notebooks run the algorithm on different months, these were not used in the final paper. 
+- 3.2 Aporiori:
+    - Notebook 3.2.2 shows memory error using Apriori algorithm locally. 
+    - Azure Databricks Notebook 3.2.3 utilizes the FPGrowth algorithm to do Market Basket Analysis.
+- 3.3 k-means:
+    - Notebook 3.3.2 uses Kmeans algorithm to group event type and price. 
+    - Azure Databricks Untitled Notebook utilizes the Kmeans algorithm to group two feature variables. This was not used in the final paper.
+- 4.0 visualizations:
+    - Covers all the visualizations from section 4.0 of the paper except for visualization 4.5 as that was made using PowerBI.
 - main:
     - Presents how the data was cleaned in cleaned.ipynd.
     - Showcases how to load kaggle.json from Jupyter directory and how the datasets are joined in Main.ipynb
     - Contains requirements.txt of packages needed as well, which can be installed using `pip install -r requirements.txt`.
     - The .gitignore file ignores .json file that is put in the main github folder.
 
-## Azure
-Azure is used to gain access to data analytics software like Databricks. Databricks has Spark preconfigured on the instance. Students get a free 100$ credit to spin up compute resources. 
+## Azure & Azure Databricks
+Azure is used to gain access to data analytics software like Databricks. Databricks has Spark preconfigured on the instance. Students get a free 100$ credit to spin up compute resources. This was used as an alternative to the AWS credits provided in class.
+- To access databricks click on the search bar in the Azure console and type `databricks`. Azure databricks should pop up. 
+- Create a new resource, and use all default settings. 
+- Go to notebooks and use the lowest compute offered. 
+- When finished make sure to delete all resources similar to AWS. 
 
-Link:
-https://azure.microsoft.com/en-us/free/students
-
+Links:
+- Azure Student Credits: https://azure.microsoft.com/en-us/free/students
+- Azure Databricks Documentation: https://learn.microsoft.com/en-us/azure/databricks/
 
 ## Kaggle 
-Kaggle is mainly used to house the data as up to 100 GB can be stored for free. Kaggle can also provide notebooks with pyspark in case teammates don't have the necessary compute power to run the datasets locally. Copy and Paste the code from linked notebooks to newly created notebooks.
+Kaggle was used to source and house the data for the project. The dataset used for the project was the cleaned dataset of a dataset found on Kaggle. This new dataset was stored on Kaggle as up to 100 GB can be stored on Kaggle for free. Kaggle can also provide notebooks with pyspark in case teammates don't have the necessary compute power to run the datasets locally. 
 
 Links:
 - Cleaned dataset: https://www.kaggle.com/datasets/matt2434/cleaned-ecommerce-data
+- Original dataset: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store
 - Notebook joining with pyspark (preferred): https://www.kaggle.com/code/matt2434/import-using-pyspark
 - Notebook joining with pandas: https://www.kaggle.com/code/matt2434/cs-504-project
 
